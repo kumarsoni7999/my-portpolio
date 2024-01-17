@@ -1,3 +1,9 @@
+:root{
+    --color-orange: #ff7a00;
+    --color-light-black: #bcbcbc;
+    --color-very-light-black: #a2a2a2;
+}
+
 .start-btn{
     background-color: white;
     color: black;
@@ -30,4 +36,16 @@
     background-color: black; 
     overflow-x: hidden;
     color: rgb(202, 202, 202);
+}
+
+.heading-orange{
+    color: var(--color-orange);
+}
+
+.sub-heading{
+    color: var(--color-light-black);
+}
+
+p{
+    color: var(--color-very-light-black);
 }
