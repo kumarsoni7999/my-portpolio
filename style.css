@@ -1,0 +1,33 @@
+.start-btn{
+    background-color: white;
+    color: black;
+    padding: 10px;
+    padding-inline: 20px;
+    border: none;
+    font-weight: bold;
+}
+
+.circle{
+    width: 300px;
+    left: 100px;
+    height: 300px;
+    position: absolute;
+    border: 35px solid rgb(84 84 84 / 40%);
+    border-radius: 50%;
+}
+
+.small-circle{
+    width: 200px;
+    top: 300px;
+    left: 300px;
+    height: 200px;
+    position: absolute;
+    border: 25px solid rgb(84 84 84 / 40%);
+    border-radius: 50%;
+}
+
+.main-container{
+    background-color: black; 
+    overflow-x: hidden;
+    color: rgb(202, 202, 202);
+}
